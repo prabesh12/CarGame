@@ -1,0 +1,95 @@
+.play {
+    /* border: 1px solid black; */
+    position: absolute;
+    padding: 300px 200px;
+}
+
+.playerCar {
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+    right: 0px;
+}
+
+.playground {
+    position: relative;
+    width: 630px;
+    margin: auto;
+    background-color: #2d3436;
+    overflow: hidden;
+    opacity:0;
+}
+
+.lane1 {
+    height: 100px;
+    width: 10px;
+    position: absolute;
+    background-color: #fff;
+    margin-left: 200px;
+}
+.lane2 {
+    height: 100px;
+    width: 10px;
+    position: absolute;
+    background-color: #fff;
+    margin-left: 400px;
+}
+
+.enemyCar1, .enemyCar2, .enemyCar3 {
+    height: 100px;
+    width: 50px;
+    position: absolute;
+}
+
+.enemyCar1 {
+    top: 100px;
+    left: 100px;
+
+}
+
+.enemyCar2 {
+    top: 500px;
+    left: 300px;
+
+
+}
+
+.enemyCar3 {
+     width: 100px;
+    top: 100px;
+    left: 500px;
+}
+
+.play-button, .play-again {
+    position: absolute;
+    background-color: red;
+    padding: 25px;
+    top: 462px;
+    z-index: 1;
+    left: 300px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.play-again {
+    display: none;
+}
+
+.after-crash {
+    display: none;
+}
+
+.score {
+    text-align: center;
+}
+
+.play p {
+    padding: 10px;
+}
+
+.aware {
+    color: skyblue;
+    font-weight: bold;
+}
